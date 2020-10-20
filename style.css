@@ -1,0 +1,393 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+    /**
+* 1. Correct the line height in all browsers.
+* 2. Prevent adjustments of font size after orientation changes in iOS.
+*/
+}
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+a {
+    color: #fff7f7;
+    text-decoration: none;
+}
+
+img {
+    border-style: none;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+.container {
+    width: 1170px;
+    height: 700px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container1 {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.clearfix {
+    clear: both
+}
+
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url('images/header.jpg') center center no-repeat;
+    /*position: relative*/
+}
+
+
+/* Nav */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(10, 10, 10, 0.808)
+}
+
+nav {
+    height: 120px;
+    min-height: 10vh;
+}
+
+nav ul li a {
+    margin-left: 200px;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 15px;
+}
+
+nav ul li a:hover {
+    color: rgba(255, 255, 0, 0.739);
+    background: rgba(253, 158, 217, 0.835);
+}
+
+#logo {
+    flex: 1 1 40rem;
+}
+
+
+/* END Nav */
+
+header .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header h2 {
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    padding-top: 275px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    /*background-color: ;*/
+}
+
+
+/* END Header */
+
+
+/* Corona */
+
+.corona {
+    background: #131313;
+    overflow: hidden;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.corona-image {
+    max-width: 50%;
+    float: left
+}
+
+.corona-image img {
+    width: 100%;
+}
+
+.corona-article {
+    max-width: 50%;
+    float: left;
+    padding-top: 50px;
+}
+
+.corona-article h2 {
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #c7c7c7;
+    margin-bottom: 0;
+    border-bottom: 4px solid #974f99;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.corona-article p {
+    font-size: 21px;
+    line-height: 1.2;
+    letter-spacing: 1.4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8e8d8d;
+    border-left: 3.5px solid #974f99;
+    padding-left: 30px;
+}
+
+
+/* END Corona */
+
+
+/* Protect */
+
+.protect {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #f7f7f763;
+    overflow: hidden;
+}
+
+.protect h2 {
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #1d1c1c;
+    margin-bottom: 0;
+    border-bottom: 4px solid #974f99;
+    text-align: center;
+    padding-bottom: 7px;
+    margin-bottom: 20px
+}
+
+.protect .hands,
+.protect .mask,
+.protect .avoid {
+    width: 33.3%;
+    float: left;
+    padding: 5px
+}
+
+.protect .hands img,
+.protect .mask img,
+.protect .avoid img {
+    width: 100%;
+    border-radius: 10px;
+    height: 225px;
+    max-height: 225px;
+    border: 3px solid #312f2f1a
+}
+
+.protect .hands p,
+.protect .mask p,
+.protect .avoid p {
+    font-size: 19px;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #312f2fe3;
+    font-weight: bold
+}
+
+
+/* END Protect */
+
+
+/* class */
+
+.class {
+    background: #fff7f7;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.class h2 {
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 20px
+}
+
+.controls {
+    width: 1000px;
+    height: 550px;
+    padding: 0;
+}
+
+
+/* Contact-us */
+
+.contact-us {
+    width: 1342px;
+    position: center;
+    background: #b6adadec;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: rgba(252, 161, 237, 0.883);
+    overflow: hidden;
+    margin-top: 30px;
+    padding: 8px;
+}
+
+.contact-us h2 {
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(71, 4, 78, 0.986);
+    margin-bottom: 0;
+    padding-bottom: 20px
+}
+
+.contact-us .form1 {
+    width: 30%;
+    max-width: 30%;
+    float: left
+}
+
+.contact-us .form1 label {
+    font-size: 29px;
+    letter-spacing: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1f051be1;
+    font-weight: bold
+}
+
+.contact-us .form1 input {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 3px solid;
+    color: #1f051be1;
+}
+
+.contact-us .form2 {
+    width: 70%;
+    max-width: 70%;
+    float: right
+}
+
+.contact-us .form2 textarea {
+    width: 100%;
+    height: 192px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 3px solid #974f99;
+    font-size: 20px;
+    resize: none
+}
+
+.contact-us .form2 button {
+    float: right;
+    width: 100px;
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgba(32, 7, 28, 0.938);
+    font-size: 20px;
+    border: 3px solid #4c094e2c;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 1.5px;
+    transition: all 1s ease-in-out;
+    cursor: pointer
+}
+
+.contact-us .form2 button:hover {
+    background-color: #580f5acc
+}
+
+
+/* END Contact-us */
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    color: rgb(248, 233, 233);
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+footer p span {
+    animation: changeColor 1s infinite;
+}
+
+textarea {
+    overflow: auto;
+}
+
+@keyframes changeColor {
+    50% {
+        color: rgb(194, 47, 137);
+    }
+}
